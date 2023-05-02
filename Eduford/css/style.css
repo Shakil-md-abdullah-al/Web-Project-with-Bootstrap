@@ -7,3 +7,46 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+.header{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../image/banner.png);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.p-0{
+    padding: 0;
+}
+.ps-10{
+    padding-left: 6rem;
+}
+.ps-16{
+    padding-left: 16rem;
+}
+.header img{
+    height: 48px;
+}
+.navmenu ul li{
+    padding-right: 25px;
+}
+.navmenu ul li a{
+    color: #fff;
+}
+.active{
+    color: red !important;
+}
+.navmenu ul li:hover a{
+    color: red;
+}
+.navmenu ul li::after{
+    content: " ";
+    width: 0;
+    height: 2px;
+    background-color: red;
+    display: block;
+    margin: auto;
+    transition: .5s;
+}
+.navmenu ul li:hover::after{
+    width: 90%;
+
+}
