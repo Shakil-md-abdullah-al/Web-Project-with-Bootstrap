@@ -141,3 +141,28 @@ body{
     opacity: 1;
     bottom: 45%;
 }
+.facilities{
+    margin: 0 135px;
+}
+.facilities h1{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.facilities p{
+    color: #777777;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.facilities-content .card{
+    border-radius: 10px;
+    border: none;
+}
+.facilities-content img{
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.facilities-content .card-text{
+    text-align: justify;
+}
