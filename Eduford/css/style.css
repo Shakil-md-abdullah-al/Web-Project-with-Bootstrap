@@ -48,5 +48,30 @@ body{
 }
 .navmenu ul li:hover::after{
     width: 90%;
-
+}
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: relative;
+    top: 70%;
+    left: 5%;
+}
+.text-box h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+.text-box p{
+    font-size: 14px;
+    margin: 0 10px;
+}
+.btn-hero{
+    border-radius: 0px;
+    border-color: #fff;
+    color: #fff;
+    padding: 12px;
+}
+.btn-hero:hover{
+    background-color: cornflowerblue;
+    border-color: #fff;
+    transition: 1s;
 }
