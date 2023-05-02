@@ -106,3 +106,38 @@ body{
 .course-content .card:hover{
     box-shadow: 0px 0px 10px #000;
 }
+.campus{
+    margin: 0 135px;
+}
+.campus-image img{
+    border-radius: 10px;
+}
+.campus-image{
+    position: relative;
+}
+.layer{
+    background-color: #000;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    border-radius: 10px;
+    opacity: 0;
+}
+.layer-content h3{
+    position: absolute;
+    left: 50%;
+    bottom: 0%;
+    color: #fff;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: 0.5s;
+}
+.campus-image:hover .layer{
+    opacity: 0.5;
+    transition: 0.5s;
+}
+.campus-image:hover .layer-content h3{
+    opacity: 1;
+    bottom: 45%;
+}
