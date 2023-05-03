@@ -195,3 +195,24 @@ body{
 .pb-6{
     padding-bottom: 22px;
 }
+
+.cont{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../image/banner2.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-attachment: fixed;
+    margin: 70px 0px 20px;
+    border-radius: 10px;
+}
+
+.cont-content{
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    padding: 110x 0;
+}
+.cont-content a{
+    color: #fff;
+}
