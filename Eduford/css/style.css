@@ -89,6 +89,7 @@ body{
 }
 .course-content{
     margin: 0 135px;
+    padding: 20px;
 }
 .course-content h5{
     text-align: center;
@@ -165,4 +166,32 @@ body{
 }
 .facilities-content .card-text{
     text-align: justify;
+}
+
+.review{
+    margin: 0 135px;
+}
+.review p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #777777;
+}
+.review-content{
+    padding: 20px;
+}
+.review-content img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+.review-content .card{
+    border-radius: 10px;
+    background-color: #FFF3F3;
+    border: none;
+}
+.review-content p{
+    text-align: justify;
+}
+.pb-6{
+    padding-bottom: 22px;
 }
