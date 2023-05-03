@@ -4,12 +4,13 @@
     box-sizing: border-box;
 }
 body{
+    font-family: 'Lato', sans-serif;
     font-family: 'Montserrat', sans-serif;
 }
 
 .header{
     background-image: linear-gradient(rgba(110, 110, 128, 0.7),rgba(110, 110, 128, 0.7)),url(../image/home-background.jpg);
-    min-height: 80vh;
+    min-height: 85vh;
     background-position: center;
     background-size: cover;
 }
@@ -36,23 +37,23 @@ body{
     font-size: 18px;
     font-weight: 700;
 }
-.active::after{
+/* .active::after{
     content: " ";
     height: 2px;
     width: 90%;
     background-color: red;
     display: block;
-}
-.active:hover::after{
+} */
+/* .active:hover::after{
     width: 0%;
-}
+} */
 .navmenu ul li::after{
     content: " ";
     width: 0%;
     height: 2px;
     background-color: red;
     display: block;
-    transition: .1s;
+    transition: .5s;
 }
 .navmenu ul li:hover::after{
     width: 90%;
@@ -96,28 +97,28 @@ body{
     position: relative;
     transition: 0.5s;
   }
-  .btn-hero:after {
+.btn-hero:after {
     content: " ";
     position: absolute;
     opacity: 0;  
     top: 5px;
     right: -20px;
     transition: 0.5s;
-  }
+}
 
-  .btn-hero:hover{
+.btn-hero:hover{
     padding-right: 24px;
     padding-left:8px;
     background-color: white;
     border-radius: 50px;
     border-color: orangered;
     color: orangered;
-  }
+}
   
-  .btn-hero:hover:after {
+.btn-hero:hover:after {
     opacity: 1;
     right: 10px;
-  }
+}
 
   /* .btn-hero:hover{
     background-color: white;
@@ -181,4 +182,63 @@ body{
 }
 .intro-image{
     margin-top: 40px;
+}
+
+.course-heading{
+    /* text-align: center; */
+    margin-top: 30px;
+}
+.course-heading1{
+    text-align: center;
+    margin-top: 100px;
+}
+.course-heading h2{
+    font-size: 30px;
+    line-height: 33px;
+    font-weight: 600;
+    color: #374050;
+    margin-bottom: 15px;
+}
+
+.course-heading a{
+    text-decoration: none;
+    color: black;
+    font-family: Lato, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 21px;
+    color: #374050;
+}
+.course-heading .card{
+    border-radius: 10px;
+    border: none;
+}
+.lin1{
+    content: '-';
+    width: 90%;
+    height: 0.2px;
+    background-color: #000;
+    display: block;
+    opacity: 0.3;
+}
+.c-content{
+    /* margin-left: -22px; */
+    font-family: Montserrat, sans-serif;
+    font-size: 15px;
+    color: #798696;
+    font-weight: 400;
+}
+.free{
+    padding-left: 70px;
+    color: #008000;
+    font-family: Montserrat, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+.Premium{
+    padding-left: 35px;
+    color: #ff6700;
+    font-family: Montserrat, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
 }
