@@ -242,3 +242,38 @@ body{
     font-size: 15px;
     font-weight: 400;
 }
+
+.more-course{
+    text-align: center;
+    margin-top: 22px;
+    margin-bottom: 30px;
+}
+
+.cta{
+    background-image: linear-gradient(rgba(110, 110, 128, 0.7),rgba(110, 110, 128, 0.7)),url(../image/cta1-background.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 50vh;
+    position: relative;
+    background-attachment: fixed;
+}
+.cta-content{
+    margin-left: 75px;
+    margin-top: 75px;
+}
+.cta-content h2, p{
+    color: #ffffff !important;
+    margin-left: 30px;
+}
+.cta-content h2{
+    font-size: 30px;
+    line-height: 33px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.cta-content p{
+    font-size: 21px;
+    line-height: 29px;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
