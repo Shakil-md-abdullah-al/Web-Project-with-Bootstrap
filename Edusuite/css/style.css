@@ -242,7 +242,6 @@ body{
     font-size: 15px;
     font-weight: 400;
 }
-
 .more-course{
     text-align: center;
     margin-top: 22px;
@@ -375,4 +374,28 @@ body{
     animation: 2s play-animation infinite;
     -webkit-transition: 0.2s color;
     transition: 0.2s color;
+}
+
+.contact{
+    background-image: linear-gradient(rgba(110, 110, 128, 0.7),rgba(110, 110, 128, 0.7)),url(../image/cta2-background.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 50vh;
+    position: relative;
+    background-attachment: fixed;
+}
+
+
+.contact-content h2{
+    padding-top: 70px;
+    font-size: 30px;
+    line-height: 33px;
+    font-weight: 600;
+}
+.contact-content p{
+    font-size: 21px;
+    line-height: 29px;
+    font-weight: 300;
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
