@@ -312,3 +312,67 @@ body{
     display: block;
     opacity: 0.3;
 }
+.video-left h3{
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: 600;
+    color: #374050;
+    margin-bottom: 15px;
+}
+.video-left .txt-2{
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #798696;
+    margin-top: 15px;
+}
+@media (min-width: 992px){
+.col-md-offset-1 {
+    margin-left: 8.33333333%;
+}
+}
+
+.about-video{
+    position: relative;
+    display: block;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.about-video:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: #FF6700;
+    opacity: 0.7;
+}
+.about-video:hover{
+    /* background-color: #cb6723; */
+    opacity: 0.8;
+    box-shadow:0px 0px 0px#cc875a;
+}
+.fa-play:before {
+    content: "\f04b";
+}
+.about-video .play-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50% , -50%);
+    -ms-transform: translate(-50% , -50%);
+    transform: translate(-50% , -50%);
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    background: #fff;
+    border-radius: 50%;
+    font-size: 24.027px;
+    z-index: 10;
+    -webkit-animation: 2s play-animation infinite;
+    animation: 2s play-animation infinite;
+    -webkit-transition: 0.2s color;
+    transition: 0.2s color;
+}
