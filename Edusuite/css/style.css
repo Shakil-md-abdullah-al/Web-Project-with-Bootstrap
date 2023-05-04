@@ -399,3 +399,38 @@ body{
     margin-top: 15px;
     margin-bottom: 20px;
 }
+.footer{
+    margin-top: 100px;
+}
+.footer img{
+    height: 36px;
+}
+.navmenu-2 ul li a{
+    color: #000;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: Lato, sans-serif;
+    line-height: 21px;
+    font-weight: 700;
+}
+.navmenu-2 ul{
+    margin-left: 16rem;
+}
+.navmenu-2 ul li{
+    padding-left: 10px;  
+}
+.navmenu-2 ul li::after{
+    content: " ";
+    height: 2px;
+    width: 0;
+    background-color: #ff6700;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.navmenu-2 ul li:hover a{
+    color: #ff6700 !important;
+}
+.navmenu-2 ul li:hover::after{
+    width: 90%;
+}
