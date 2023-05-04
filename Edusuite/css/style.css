@@ -401,6 +401,7 @@ body{
 }
 .footer{
     margin-top: 100px;
+    margin-bottom: 80px;
 }
 .footer img{
     height: 36px;
@@ -412,9 +413,10 @@ body{
     font-family: Lato, sans-serif;
     line-height: 21px;
     font-weight: 700;
+    transition: opacity 0.2s ease 0s;
 }
 .navmenu-2 ul{
-    margin-left: 16rem;
+    margin-left: 20rem;
 }
 .navmenu-2 ul li{
     padding-left: 10px;  
@@ -433,4 +435,50 @@ body{
 }
 .navmenu-2 ul li:hover::after{
     width: 90%;
+}
+
+.footer-below span{
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    line-height: 40px;
+    font-weight: 400;
+    color: #798696;
+}
+.social-icon ul{
+    text-align: right;
+}
+.social-icon ul li{
+    display: inline-block;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+.social-icon ul li a{
+    /* background-color: #3b5998; */
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    color: #ffffff;
+    background-color: rgb(235, 235, 235);
+    transition: opacity 0.2s ease 0s;
+}
+.fb a{
+    background-color: rgb(59, 89, 152) !important;
+}
+.insta a{
+    background-color: rgb(221, 75, 57) !important;
+}
+.twitter a{
+    background-color: rgb(85, 172, 238) !important;
+}
+.plus a{
+    background-color: rgb(221, 75, 57) !important;
+}
+.yt a{
+    background-color: rgb(255, 0, 0) !important;
+}
+.ln a{
+    background-color: rgb(0, 123, 181) !important;
 }
