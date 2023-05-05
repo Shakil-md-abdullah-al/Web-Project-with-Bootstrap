@@ -288,3 +288,32 @@ body{
     background-color: cornflowerblue;
     color: #ffffff;
 }
+
+.blog-body{
+    margin-top: 120px;
+    padding: 0 30px;
+}
+.blog-content{
+    font-size: 14px;
+    font-weight: 600;
+    margin: 30px 0px;
+}
+.blog-right h2{
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 500;
+    font-family: Poppins, sans-serif;;
+    background: #f44336;
+    color: #fff;
+    padding: 0px 5px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+.special-single-category p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #212529;
+    margin-bottom: 23px;
+}
