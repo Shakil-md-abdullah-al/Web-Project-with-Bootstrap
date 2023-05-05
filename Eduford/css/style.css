@@ -252,3 +252,39 @@ body{
     font-family: 
     Poppins, sans-serif;;
 }
+
+.about-page{
+    margin-top: 90px;
+    padding: 0 135px;
+}
+/* .about-left{
+    padding-left: 80px;
+} */
+.about-page h1{
+    font-family: Poppins, sans-serif;;
+    font-size: 27px;
+    line-height: 32px;
+    font-weight: 500;
+    color: #212529;
+    margin-bottom: 10px;
+}
+.about-page p{
+    text-align: justify;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #212529;
+}
+.about-img img{
+    padding: 0 12px;
+}
+.about-btn{
+    border: 1px solid red;
+    border-radius: 0;
+    padding: 10px 40px;
+    transition: all 1s ease 0s;
+}
+.about-btn:hover{
+    background-color: cornflowerblue;
+    color: #ffffff;
+}
