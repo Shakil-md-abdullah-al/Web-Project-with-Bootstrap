@@ -232,3 +232,23 @@ body{
     margin-left: 7px;
     margin-bottom: 10px;
 }
+
+.header-others{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../image/background.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 50vh;
+    background-attachment: fixed;
+}
+.header-others img{
+    height: 44px;
+}
+.text-box-1 h1{
+    color: #ffffff;
+    padding-top: 60px;
+    font-size: 36px;
+    line-height: 43px;
+    font-weight: 700;
+    font-family: 
+    Poppins, sans-serif;;
+}
