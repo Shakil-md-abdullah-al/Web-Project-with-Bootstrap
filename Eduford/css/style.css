@@ -360,6 +360,18 @@ body{
     font-weight: 500;
     width: 100%;
 }
+.form-submit input:focus{
+    background-color: white;
+    box-shadow: 0 0 10px cornflowerblue;
+    border: none !important;
+    outline: none !important;
+}
+.form-submit textarea:focus{
+    background-color: white;
+    box-shadow: 0 0 10px cornflowerblue;
+    border: none !important;
+    outline: none !important;
+}
 .form-submit button{
     border-radius: 0;
     padding: 16px 40px;
@@ -405,11 +417,14 @@ body{
     padding-right: 100px;
     padding-bottom: 40px;
 }
+.contact-form{
+    margin-top: -20px !important;
+}
 .contact-form input{
     height: 50px;
     margin-top: 25px;
     /* border: none; */
-    width: 70%;
+    width: 90%;
     font-size: 17px;
     font-weight: 500;
     padding-left: 23px;
@@ -421,6 +436,6 @@ body{
     resize: none;
     font-size: 17px;
     font-weight: 500;
-    width: 70%;
+    width: 90%;
     margin-bottom: 20px;
 }
