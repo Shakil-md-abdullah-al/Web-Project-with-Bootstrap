@@ -375,3 +375,52 @@ body{
     color: white;
     transition: all 1s ease 0s;
 }
+
+.map{
+    margin: 0 30px;
+    margin-top: 80px;
+}
+.contact-content{
+    margin: 0 135px;
+    margin-top: 50px;
+}
+.contact-left h2{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: Poppins, sans-serif;;
+    color: #212529;
+}
+.contact-left p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.contact-left i{
+    padding-top: 20px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+.pl{
+    padding-right: 100px;
+    padding-bottom: 40px;
+}
+.contact-form input{
+    height: 50px;
+    margin-top: 25px;
+    /* border: none; */
+    width: 70%;
+    font-size: 17px;
+    font-weight: 500;
+    padding-left: 23px;
+}
+.contact-form   textarea{
+    height: 250px;
+    padding: 15px 25px 25px;
+    margin-top: 25px;
+    resize: none;
+    font-size: 17px;
+    font-weight: 500;
+    width: 70%;
+    margin-bottom: 20px;
+}
