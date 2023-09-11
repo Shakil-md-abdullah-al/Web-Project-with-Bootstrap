@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient();
+}
+.header{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../image/hero-bg.jpg);
+    min-height: 70vh;
+    background-position: center;
+    background-size: cover;
+}
+.navmenu ul li a, .active{
+    color: #fff !important;
+}
+.navmenu ul{
+    font-size: 20px;
+    padding-left: 30px;
+}
+.navmenu ul li{
+    padding-left: 10px;
+}
+.navbar-brand{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 600;
+    padding-left: 120px;
+}
+.nav-item .active{
+    color: #fff;
+}
+
+.text-box h1{
+    color: white;
+    padding-top: 180px;
+    font-size: 70px;
+    line-height: 45px;
+    word-spacing: 5px;
+    font-weight: 600;
+}
+.portfolio{
+    margin-top: 80px;
+    padding-left: 20px;
+    
+}
+.portfolio .row{
+    margin-top: 10px;
+    margin-top: 10px;
+    padding-left: 20px;
+    /* padding-right: 20px; */
+    
+}
+.portfolio-left h6{
+    padding-bottom: 14px;
+    font-weight: 500;
+}
+.portfolio-left p{
+    position: relative;
+left: 13px;
+}
+
+.bx{
+    /* border: 1px solid black; */
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.portfolio-right h5{
+    font-size: 24px;
+    line-height: 35px;
+}
+.portfolio-right h5::after{
+    content: " ";
+    width: 15%;
+    height: 2px;
+    background-color: cornflowerblue;
+    display: block;
+    /* margin: auto; */
+    transition: .5s;
+    position: relative;
+    left: 0;
+
+}
+/* .portfolio-right p{
+    text-align: justify;
+    color: #212529;
+} */
+
+.bar h6{
+    margin: 7px;
+    position: relative;
+    bottom: -6%;
+}
+.service{
+    margin-top: 80px;
+}
+.eff p::after{
+    content: " ";
+    width: 10%;
+    height: 3px;
+    background-color: cornflowerblue;
+    display: block;
+    margin-bottom: 5px;
+    margin:5px auto;
+    transition: .5s;
+}
+.service .card img{
+    height: 50%;
+    width: 50%;
+    margin-top: 5px;
+    margin-left: 78px;
+}
+.service .card-body p{
+    text-align: justify;
+}
+.service .card{
+    border: none;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.card{
+    border: none;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.prof, .blog{
+    margin-top: 80px;
+}
+.blog .card h5{
+    background-color: blue;
+}
+.blog-style{
+    position: relative;
+    left: 70px;
+    bottom: 30px;
+}
+.cir-img img{
+    border-radius: 50%;
+}
+.contact-us{
+    background-color: cornflowerblue;
+    height: 400px;
+}
+.contact-us .foot1{
+    position: relative;
+    padding-top: 90px;
+}
+.contact-us h3::after{
+    content: " ";
+    width: 25%;
+    height: 3px;
+    background-color: cornflowerblue;
+    display: block;
+    /* margin: auto; */
+    transition: .5s;
+    position: relative;
+    left: 0;
+
+}
+.foot-style{
+    background-color: white !important;
+    padding-top: 50px;
+}
+.box{
+    margin-top: 10px;
+    width: 90%;
+    box-shadow: #222222;
+    height: 50px;
+}
+.foot-style-left{
+    padding-left: 50px;
+}
