@@ -1,5 +1,4 @@
-# Web-Project-with-Bootstrap
-<h2>Repository Title: Front-End Design Practice Projects</h2>
+<h1>Repository Title: Front-End Design Practice Projects</h1>
 
 Welcome to the "Front-End Design Practice Projects" repository, an immersive and inspirational space for web development enthusiasts to embark on a journey of creativity and skill-building. Within these virtual walls, you'll uncover a carefully curated collection of front-end projects that not only captivate the eye but also serve as invaluable tools for enhancing your web development expertise. These projects showcase popular designs renowned for their visual elegance, and I've taken it upon myself to explore and recreate them, infusing each with my own unique perspective.
 
